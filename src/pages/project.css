@@ -132,7 +132,7 @@ h1 {
 h2 {
     margin: 0;
     color: var(--accent);
-    left: 90%;
+    left: 50%;
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 0px;
@@ -151,10 +151,11 @@ section {
 }
 
 section>div {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    max-height: 90vh;
+    width: 400px;
+    height: 90%;
+    position: absolute;
+    max-width: 60;
+    max-height: 95vh;
     margin: 10px;
     background: var(--white);
     overflow: hidden;

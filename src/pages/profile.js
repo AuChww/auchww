@@ -13,10 +13,10 @@ function Profile() {
     return (
         <section class="mx-auto">
             <motion.h2 >
-                <div class="font-bold border-r-2 border-t-2 pr-1 md:text-9xl text-7xl">
+                <div class="text-black font-bold border-black border-r-2 border-t-2 pr-1 md:text-9xl text-7xl">
                     AU
                 </div>
-                <div class="md:inline-flex ml-2 font-semi text-lg px-2 border border-white bg-white text-gray-800">
+                <div class="md:inline-flex ml-2 font-semi text-lg px-2 border border-black bg-black text-gray-400">
                     <div class="">
                         Chanawut
                     </div>
