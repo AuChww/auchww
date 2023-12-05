@@ -11,13 +11,12 @@ function Home() {
   return (
     <div className="pagecontainer home" style={pageMedium}>
       <div >
-        <img src={profile} class="mx-auto" style={{
+        <img src={profile} class="mx-auto w-full lg:w-1/2" style={{
           position: 'absolute',
           top: 0,
           left: 0,
           right: 0,
-          bottom: 0,
-          width: '100%', // Set width to 100% for proportional scaling
+          bottom: 0, // Set width to 100% for proportional scaling
           height: '100%',
           objectFit: 'cover',
         }} />

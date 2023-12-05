@@ -1,4 +1,4 @@
-import "./project.css";
+
 import { useRef } from "react";
 import profile from "../image/profile.jpg";
 import {
@@ -11,126 +11,28 @@ import {
 
 function Work() {
     return (
-        <section class="mx-auto">
-            <div>
-                <img src={profile} alt="" />
+        <section class="mx-auto grid grid-cols-2">
+            <div class="bg-white rounded-xl my-8 text-black">
+                <div class="ml-4 ">
+                    <div class="text-black text-2xl text-semibold mt-4">Skills</div>
+                    <div class="flex justify-center w-40 mx-auto">
+                        <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png'} class="w-10 h-10" alt="Vue Logo" />
+                        <div>Vue</div>
+                    </div>
+                    <div class="flex border border-black justify-center w-40 mx-auto">
+                        <img src={'https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png'} class="w-10 h-10"></img>
+                        <div>React</div>
+                    </div>
+                    <div>Laravel</div>
+                    <div>CSS</div>
+                    <div>C/C++</div>
+                    <div>Python</div>
+                    <div>SQL</div>
+                </div>
             </div>
-            <motion class="z-50">
-                <div class="md:text-lg text-lg pt-1">
-                    JAVA
-                </div>
-                <div class="border-r-2 border-t-2">
-                    <div class="ml-2 font-bold pt-2 pr-1 md:text-3xl text-2xl">
-                        Borrowing App
-                    </div>
-                    <div class="font-semi mb-2 ml-4 mr-2 text-gray-400 md:text-md text-sm">
-                        App for borrowing and returning assets in university
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-white text-gray-800">
-                        <div class="">
-                            Java FX
-                        </div>
-                    </div>
-                    <div class="ml-3 inline-flex">
-                        <div class="font-semi text-gray-400 md:text-md text-sm">
-                            JAN-MAR
-                        </div>
-                        <div class="font-semi ml-2 text-gray-400 md:text-md text-sm">
-                            2023
-                        </div>
-                    </div>
-                    <div class="font-semi mt-1 ml-4 mr-2 text-gray-400 md:text-md text-sm">
-                        My Part : Materials Section , UX/UI
-                    </div>
-                </div>
-
-                <div class="mt-16 md:text-lg text-lg pt-1">
-                    Webtech
-                </div>
-                <div class="border-r-2 border-t-2">
-                    <div class="font-bold ml-2 pt-2 pr-1 md:text-3xl text-2xl">
-                        Manage Events
-                    </div>
-                    <div class="font-semi mb-2 ml-4 mr-2 text-gray-400 md:text-md text-sm">
-                        A Website for Manage Events in University
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-white text-gray-800">
-                        <div class="">
-                            PHP
-                        </div>
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-transparent text-white">
-                        <div class="">
-                            Laravel
-                        </div>
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-transparent text-white">
-                        <div class="">
-                            Tailwind
-                        </div>
-                    </div>
-                    <div class="ml-3 inline-flex">
-                        <div class="font-semi text-gray-400 md:text-md text-sm">
-                            JUN-AUG
-                        </div>
-                        <div class="font-semi ml-2 text-gray-400 md:text-md text-sm">
-                            2023
-                        </div>
-                    </div>
-                    <div class="font-semi mt-1 ml-4 mr-2 text-gray-400 md:text-md text-sm">
-                        My Part : UX/UI
-                    </div>
-                </div>
-
-                <div class="mt-16 md:text-lg text-lg pt-1">
-                    WEBTECH
-                </div>
-                <div class="border-r-2 border-t-2">
-                    <div class="font-bold ml-2 pt-2 pr-1 md:text-3xl text-2xl">
-                        E-Commerce
-                    </div>
-                    <div class="font-semi mb-2 ml-4 mr-2 text-gray-400 md:text-md text-sm">
-                        A website for Selling Computer equipment
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-white text-gray-800">
-                        <div class="">
-                            JavaScript
-                        </div>
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-transparent text-white">
-                        <div class="">
-                            VueJS
-                        </div>
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-transparent text-white">
-                        <div class="">
-                            Tailwind
-                        </div>
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-white text-gray-800">
-                        <div class="">
-                            PHP
-                        </div>
-                    </div>
-                    <div class="inline-flex ml-2 mt-1 font-semi text-lg px-2 border border-white bg-transparent text-white">
-                        <div class="">
-                            Laravel
-                        </div>
-                    </div>
-                    <div class="ml-3 inline-flex">
-                        <div class="font-semi text-gray-400 md:text-md text-sm">
-                            SEP-NOV
-                        </div>
-                        <div class="font-semi ml-2 text-gray-400 md:text-md text-sm">
-                            2023
-                        </div>
-                    </div>
-                    <div class="font-semi mt-1 ml-4 mr-2 text-gray-400 md:text-md text-sm">
-                        My Part : All Front-end , Database
-                    </div>
-                </div>
-            </motion>
-
+            <div class="bg-white rounded-xl my-8">
+                <div class="text-black text-2xl text-semibold ml-4 mt-2">Project</div>
+            </div>
         </section>
     );
 }

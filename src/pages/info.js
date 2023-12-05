@@ -1,5 +1,6 @@
 // Photos from https://citizenofnowhe.re/lines-of-the-city
 import "./info.css";
+import About from "./about";
 import { useRef } from "react";
 import {
     motion,
@@ -36,10 +37,7 @@ function Image({ id }: { id: number }) {
                 <Profile />
                 : null}
             {id === 2 ?
-                <Work />
-                : null}
-            {id === 3 ?
-                <Work />
+                <About />
                 : null}
         </section>
     );
@@ -55,7 +53,7 @@ export default function Info() {
 
     return (
         <>
-            {[1, 2, 3].map((image) => (
+            {[1, 2].map((image) => (
                 <Image id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
