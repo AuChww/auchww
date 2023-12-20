@@ -10,14 +10,13 @@ function About() {
     };
     const myComponent = () => <Img src="https://www.example.com/foo.jpg" />
     return (
-        <div class="grid grid-cols-3 gap-2 " style={pageMedium}>
+        <div class="bg-zinc-700 grid lg:grid-cols-3 grid-cols-1" style={pageMedium}>
             <div class="p-4 bg-zinc-700  font-sans">
-
                 <div class="inline-flex mt-10">
                     <div class=" text-3xl text-bold">
                         Chanawut Wuttinun
                     </div>
-                    <a href="https://github.com/AuChww" class="ml-20 inline-flex items-center justify-center px-5 py-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
+                    <a href="https://github.com/AuChww" class="ml-16 inline-flex items-center justify-center px-5 py-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                         <i class="fa fa-github"></i>
                         <span class="w-full">Github</span>
                         <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -115,11 +114,11 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div>
-                <img src={about} class="mx-auto h-full" />
+            <div class="hidden md:hidden lg:inline">
+                <img src={about} class="mx-auto items-center w-full" />
             </div>
-            <div>
-                <img src={activity} class="mx-auto h-full" />
+            <div class="hidden md:hidden lg:inline">
+                <img src={activity} class="mx-auto w-full" />
             </div>
         </div>
     );

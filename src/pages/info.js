@@ -12,6 +12,7 @@ import {
 import profile from "../image/profile.jpg";
 import Work from "./work";
 import Profile from "../pages/profile";
+import Blank from "./blank";
 
 const imagePaths = {
     1: profile,
@@ -36,9 +37,19 @@ function Image({ id }: { id: number }) {
             {id === 1 ?
                 <Profile />
                 : null}
-            {id === 2 ?
-                <About />
-                : null}
+            <div class="hidden lg:inline">
+                {id === 2 ?
+                    <About />
+                    : null}
+            </div>
+            <div class="lg:hidden md:hidden">
+                {id === 2 ?
+                    <Blank />
+                    : null}
+                {id === 3 ?
+                    <About />
+                    : null}
+            </div>
         </section>
     );
 }
@@ -53,7 +64,7 @@ export default function Info() {
 
     return (
         <>
-            {[1, 2].map((image) => (
+            {[1, 2, 3].map((image) => (
                 <Image id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
