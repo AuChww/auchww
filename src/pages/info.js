@@ -64,7 +64,7 @@ export default function Info() {
 
     return (
         <>
-            {[1, 2, 3].map((image) => (
+            {[1, 2].map((image) => (
                 <Image id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
