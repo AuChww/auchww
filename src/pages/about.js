@@ -5,7 +5,7 @@ import activity from "../image/2.jpg";
 
 function About() {
     const pageMedium = {
-        marginTop: '0px', // Adjust the margin to accommodate the fixed navbar
+        marginTop: '10px', // Adjust the margin to accommodate the fixed navbar
         padding: '20px', // Add padding to the page content
     };
     const myComponent = () => <Img src="https://www.example.com/foo.jpg" />
