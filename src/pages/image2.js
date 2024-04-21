@@ -8,8 +8,13 @@ function Image2() {
         padding: '20px', // Add padding to the page content
     };
     return (
-        <div class="">
-            <img src={about} class="mx-auto items-center w-full" />
+        <div>
+            <div class="sm:hidden mt-20">
+                <img src={about} class="mx-auto items-center w-full" />
+            </div>
+            <div class="hidden sm:inline">
+                <img src={about} class="mx-auto items-center w-3/4" />
+            </div>
         </div>
     )
 }

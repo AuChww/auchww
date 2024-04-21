@@ -1,0 +1,5 @@
+@media (min-width: 520px) {
+    .xs\:hidden {
+        display: none;
+    }
+}

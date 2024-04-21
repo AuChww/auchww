@@ -86,7 +86,7 @@ function About() {
                             </div>
                             <a href="https://github.com/AuChww/sa-project-front" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                                 <i class="fa fa-github"></i>
-                                <span class="w-full">Front end</span>
+                                <span class="w-full">Front</span>
                                 <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                                 </svg>
@@ -95,7 +95,7 @@ function About() {
                         <div class="mt-10">
                             <a href="https://github.com/Thanakorn0Khonman/sa-project-back" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                                 <i class="fa fa-github"></i>
-                                <span class="w-full">Back end</span>
+                                <span class="w-full">Back</span>
                                 <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                                 </svg>
