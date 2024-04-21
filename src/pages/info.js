@@ -13,6 +13,7 @@ import profile from "../image/profile.jpg";
 import Work from "./work";
 import Profile from "../pages/profile";
 import Blank from "./blank";
+import Aom from "./aom";
 
 const imagePaths = {
     1: profile,
@@ -28,9 +29,7 @@ function Image({ id }: { id: number }) {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useParallax(scrollYProgress, 300);
-
     const imagePath = imagePaths[id] || '';
-
 
     return (
         <section>
@@ -50,6 +49,9 @@ function Image({ id }: { id: number }) {
                     <About />
                     : null}
             </div>
+            {id === 3 ?
+                <Aom />
+                : null}
         </section>
     );
 }
@@ -64,7 +66,7 @@ export default function Info() {
 
     return (
         <>
-            {[1, 2].map((image) => (
+            {[1, 2, 3].map((image) => (
                 <Image id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
