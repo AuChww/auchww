@@ -33,8 +33,11 @@ function About() {
                             <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" class="h-16"></img>
                         </div>
                         <div>
-                            <div class="mt-2 ml-1">
+                            <div class="ml-1">
                                 Java Project
+                            </div>
+                            <div class="text-xs ml-1 text-blue-300">
+                                Borrow Asset
                             </div>
                             <a href="https://github.com/CS211-652/cs211-652-project-aeiou" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                                 <i class="fa fa-github"></i>
@@ -52,8 +55,11 @@ function About() {
                             <img src="https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png" class="h-12"></img>
                         </div>
                         <div>
-                            <div class="mt-2 ml-1">
+                            <div class=" ml-1">
                                 Webtech Project
+                            </div>
+                            <div class="text-xs ml-1 text-blue-300">
+                                Event Management
                             </div>
                             <a href="https://github.com/naiithink/ku-2023-01418442-nak-muay" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                                 <i class="fa fa-github"></i>
@@ -72,8 +78,11 @@ function About() {
                             <img src="https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png" class="ml-4 h-12"></img>
                         </div>
                         <div>
-                            <div class="mt-2 ml-1">
+                            <div class="ml-1">
                                 Webtech Project
+                            </div>
+                            <div class="text-xs ml-1 text-blue-300">
+                                E-commerce
                             </div>
                             <a href="https://github.com/AuChww/sa-project-front" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                                 <i class="fa fa-github"></i>
@@ -83,7 +92,7 @@ function About() {
                                 </svg>
                             </a>
                         </div>
-                        <div class="mt-8">
+                        <div class="mt-10">
                             <a href="https://github.com/Thanakorn0Khonman/sa-project-back" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                                 <i class="fa fa-github"></i>
                                 <span class="w-full">Back end</span>
@@ -100,10 +109,57 @@ function About() {
                             <img src="https://cdn-icons-png.flaticon.com/512/2246/2246713.png" class="h-11"></img>
                         </div>
                         <div>
-                            <div class="mt-2 ml-1">
+                            <div class="ml-1">
                                 SA Project
                             </div>
+                            <div class="text-xs ml-1 text-blue-300">
+                                E-commerce
+                            </div>
                             <a href="https://docs.google.com/document/d/1aghDKiRVmnBj_UKUSKRFGDN-PsXuDzC9cDop3mFYDgY/edit?usp=sharing" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
+                                <i class="fa fa-github"></i>
+                                <span class="w-full">Docs</span>
+                                <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-4 ml-2">
+                    <div class="grid grid-cols-3">
+                        <div class="inline-flex mt-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2246/2246713.png" class="h-11"></img>
+                        </div>
+                        <div>
+                            <div class="ml-1">
+                                Software Testing Project
+                            </div>
+                            <div class="text-xs ml-1 text-blue-300">
+                                E-commerce
+                            </div>
+                            <a href="https://docs.google.com/document/d/19eu9GFhnC_CpvPqfVu_qvaYmrw2Qwy2bO93jJ46zfB8/edit?usp=sharing" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
+                                <i class="fa fa-github"></i>
+                                <span class="w-full">Docs</span>
+                                <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-4 ml-2">
+                    <div class="grid grid-cols-3">
+                        <div class="inline-flex mt-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2246/2246713.png" class="h-11"></img>
+                        </div>
+                        <div>
+                            <div class="ml-1">
+                                Software Testing Project
+                            </div>
+                            <div class="text-xs ml-1 text-blue-300">
+                                Gold Pawn Shop
+                            </div>
+                            <a href="https://docs.google.com/document/d/16bWHH7FWhVopiuupsEKJX6jB4rKVAS_0qUiVMqqj5Jk/edit?usp=sharing" class="inline-flex items-center justify-center px-5 py-1 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-zinc-100 dark:text-gray-400 dark:bg-zinc-800 dark:hover:bg-zinc-600 dark:hover:text-white">
                                 <i class="fa fa-github"></i>
                                 <span class="w-full">Docs</span>
                                 <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
