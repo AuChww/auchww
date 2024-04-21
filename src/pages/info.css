@@ -156,7 +156,7 @@ section>div {
     position: relative;
     max-height: 90vh;
     margin: 10px;
-    background: var(--white);
+    background: var(--);
     overflow: hidden;
 }
 

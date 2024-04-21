@@ -41,11 +41,8 @@ function Image({ id }: { id: number }) {
                     <About />
                     : null}
             </div>
-            <div class="lg:hidden md:hidden">
+            <div class="lg:hidden">
                 {id === 2 ?
-                    <Blank />
-                    : null}
-                {id === 3 ?
                     <About />
                     : null}
             </div>
